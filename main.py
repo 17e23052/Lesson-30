@@ -15,4 +15,7 @@ for suit in suits:
       value = str(x)
     deck.append(value + suit)
 shuffle(deck)
-print(deck)
+player1 = deck[:int((len(deck)/2))]
+player2 = deck[int((len(deck)/2)):]
+print(player1)
+print(player2)
