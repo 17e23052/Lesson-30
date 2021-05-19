@@ -1,3 +1,4 @@
+from random import shuffle
 suits = ["♥", "♦", "♣", "♠"]
 deck = []
 for suit in suits:
@@ -13,4 +14,5 @@ for suit in suits:
     else:
       value = str(x)
     deck.append(value + suit)
+shuffle(deck)
 print(deck)
