@@ -17,5 +17,5 @@ for suit in suits:
 shuffle(deck)
 player1 = deck[:int((len(deck)/2))]
 player2 = deck[int((len(deck)/2)):]
-print(player1)
-print(player2)
+print(f"Player 1 deck: {player1}")
+print(f"Player 2 deck: {player2}")
